@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="header">
+  <h2 style="margin:5px">ToDo List</h2>
+  <input type="text" id="title" placeholder="Title...">
+  <span onclick="onAddClick()" class="add-button">
+    Add New
+  </span>
+</div>
+
+<ul id="list">
+  <li>Read a book</li>
+  <li class="checked">Check Trello issues</li>
+  <li>Start new project</li>
+  <li>Go to gym</li>
+</ul>
+
+<script src="index.js"></script>
+</body>
+</html>
